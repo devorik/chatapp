@@ -1,0 +1,133 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="kz.iitu.chatapp"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="16"
+8-->C:\Users\or200\OneDrive\Desktop\android projects\kziituchatapp\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="29" />
+9-->C:\Users\or200\OneDrive\Desktop\android projects\kziituchatapp\app\src\main\AndroidManifest.xml
+10
+11    <!-- Although the *SdkVersion is captured in gradle build files, this is required for non gradle builds -->
+12    <!-- <uses-sdk android:minSdkVersion="14" /> -->
+13    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+13-->[com.google.firebase:firebase-firestore:21.3.0] C:\Users\or200\.gradle\caches\transforms-2\files-2.1\e719d4995983ff203b117969b15539d3\jetified-firebase-firestore-21.3.0\AndroidManifest.xml:13:5-79
+13-->[com.google.firebase:firebase-firestore:21.3.0] C:\Users\or200\.gradle\caches\transforms-2\files-2.1\e719d4995983ff203b117969b15539d3\jetified-firebase-firestore-21.3.0\AndroidManifest.xml:13:22-76
+14    <uses-permission android:name="android.permission.INTERNET" />
+14-->[com.google.firebase:firebase-firestore:21.3.0] C:\Users\or200\.gradle\caches\transforms-2\files-2.1\e719d4995983ff203b117969b15539d3\jetified-firebase-firestore-21.3.0\AndroidManifest.xml:14:5-67
+14-->[com.google.firebase:firebase-firestore:21.3.0] C:\Users\or200\.gradle\caches\transforms-2\files-2.1\e719d4995983ff203b117969b15539d3\jetified-firebase-firestore-21.3.0\AndroidManifest.xml:14:22-64
+15
+16    <application
+16-->C:\Users\or200\OneDrive\Desktop\android projects\kziituchatapp\app\src\main\AndroidManifest.xml:5:5-25:19
+17        android:name="kz.iitu.chatapp.FirebaseApp"
+17-->C:\Users\or200\OneDrive\Desktop\android projects\kziituchatapp\app\src\main\AndroidManifest.xml:6:9-36
+18        android:allowBackup="true"
+18-->C:\Users\or200\OneDrive\Desktop\android projects\kziituchatapp\app\src\main\AndroidManifest.xml:7:9-35
+19        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+19-->[androidx.core:core:1.0.2] C:\Users\or200\.gradle\caches\transforms-2\files-2.1\6e58c4c9aa39dab7e33509fd02e439cc\core-1.0.2\AndroidManifest.xml:22:18-86
+20        android:debuggable="true"
+21        android:icon="@mipmap/ic_launcher"
+21-->C:\Users\or200\OneDrive\Desktop\android projects\kziituchatapp\app\src\main\AndroidManifest.xml:8:9-43
+22        android:label="@string/app_name"
+22-->C:\Users\or200\OneDrive\Desktop\android projects\kziituchatapp\app\src\main\AndroidManifest.xml:9:9-41
+23        android:roundIcon="@mipmap/ic_launcher_round"
+23-->C:\Users\or200\OneDrive\Desktop\android projects\kziituchatapp\app\src\main\AndroidManifest.xml:10:9-54
+24        android:supportsRtl="true"
+24-->C:\Users\or200\OneDrive\Desktop\android projects\kziituchatapp\app\src\main\AndroidManifest.xml:11:9-35
+25        android:testOnly="true"
+26        android:theme="@style/AppTheme" >
+26-->C:\Users\or200\OneDrive\Desktop\android projects\kziituchatapp\app\src\main\AndroidManifest.xml:12:9-40
+27        <activity android:name="kz.iitu.chatapp.SendMessageActivity" />
+27-->C:\Users\or200\OneDrive\Desktop\android projects\kziituchatapp\app\src\main\AndroidManifest.xml:13:9-66
+27-->C:\Users\or200\OneDrive\Desktop\android projects\kziituchatapp\app\src\main\AndroidManifest.xml:13:19-54
+28        <activity android:name="kz.iitu.chatapp.ChatList" />
+28-->C:\Users\or200\OneDrive\Desktop\android projects\kziituchatapp\app\src\main\AndroidManifest.xml:14:9-46
+28-->C:\Users\or200\OneDrive\Desktop\android projects\kziituchatapp\app\src\main\AndroidManifest.xml:14:19-43
+29        <activity android:name="kz.iitu.chatapp.SignUpActivity" />
+29-->C:\Users\or200\OneDrive\Desktop\android projects\kziituchatapp\app\src\main\AndroidManifest.xml:15:9-52
+29-->C:\Users\or200\OneDrive\Desktop\android projects\kziituchatapp\app\src\main\AndroidManifest.xml:15:19-49
+30        <activity
+30-->C:\Users\or200\OneDrive\Desktop\android projects\kziituchatapp\app\src\main\AndroidManifest.xml:16:9-24:20
+31            android:name="kz.iitu.chatapp.MainActivity"
+31-->C:\Users\or200\OneDrive\Desktop\android projects\kziituchatapp\app\src\main\AndroidManifest.xml:17:13-41
+32            android:label="Log in" >
+32-->C:\Users\or200\OneDrive\Desktop\android projects\kziituchatapp\app\src\main\AndroidManifest.xml:18:13-35
+33            <intent-filter>
+33-->C:\Users\or200\OneDrive\Desktop\android projects\kziituchatapp\app\src\main\AndroidManifest.xml:19:13-23:29
+34                <action android:name="android.intent.action.MAIN" />
+34-->C:\Users\or200\OneDrive\Desktop\android projects\kziituchatapp\app\src\main\AndroidManifest.xml:20:17-69
+34-->C:\Users\or200\OneDrive\Desktop\android projects\kziituchatapp\app\src\main\AndroidManifest.xml:20:25-66
+35
+36                <category android:name="android.intent.category.LAUNCHER" />
+36-->C:\Users\or200\OneDrive\Desktop\android projects\kziituchatapp\app\src\main\AndroidManifest.xml:22:17-77
+36-->C:\Users\or200\OneDrive\Desktop\android projects\kziituchatapp\app\src\main\AndroidManifest.xml:22:27-74
+37            </intent-filter>
+38        </activity>
+39        <activity
+39-->[com.google.firebase:firebase-auth:19.1.0] C:\Users\or200\.gradle\caches\transforms-2\files-2.1\17c64d86437627272a74dcb667f7033e\firebase-auth-19.1.0\AndroidManifest.xml:24:9-31:50
+40            android:name="com.google.firebase.auth.internal.FederatedSignInActivity"
+40-->[com.google.firebase:firebase-auth:19.1.0] C:\Users\or200\.gradle\caches\transforms-2\files-2.1\17c64d86437627272a74dcb667f7033e\firebase-auth-19.1.0\AndroidManifest.xml:25:13-85
+41            android:excludeFromRecents="true"
+41-->[com.google.firebase:firebase-auth:19.1.0] C:\Users\or200\.gradle\caches\transforms-2\files-2.1\17c64d86437627272a74dcb667f7033e\firebase-auth-19.1.0\AndroidManifest.xml:26:13-46
+42            android:exported="true"
+42-->[com.google.firebase:firebase-auth:19.1.0] C:\Users\or200\.gradle\caches\transforms-2\files-2.1\17c64d86437627272a74dcb667f7033e\firebase-auth-19.1.0\AndroidManifest.xml:27:13-36
+43            android:launchMode="singleTask"
+43-->[com.google.firebase:firebase-auth:19.1.0] C:\Users\or200\.gradle\caches\transforms-2\files-2.1\17c64d86437627272a74dcb667f7033e\firebase-auth-19.1.0\AndroidManifest.xml:28:13-44
+44            android:permission="com.google.firebase.auth.api.gms.permission.LAUNCH_FEDERATED_SIGN_IN"
+44-->[com.google.firebase:firebase-auth:19.1.0] C:\Users\or200\.gradle\caches\transforms-2\files-2.1\17c64d86437627272a74dcb667f7033e\firebase-auth-19.1.0\AndroidManifest.xml:29:13-102
+45            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+45-->[com.google.firebase:firebase-auth:19.1.0] C:\Users\or200\.gradle\caches\transforms-2\files-2.1\17c64d86437627272a74dcb667f7033e\firebase-auth-19.1.0\AndroidManifest.xml:30:13-72
+46
+47        <service
+47-->[com.google.firebase:firebase-auth:19.1.0] C:\Users\or200\.gradle\caches\transforms-2\files-2.1\17c64d86437627272a74dcb667f7033e\firebase-auth-19.1.0\AndroidManifest.xml:33:9-39:19
+48            android:name="com.google.firebase.components.ComponentDiscoveryService"
+48-->[com.google.firebase:firebase-auth:19.1.0] C:\Users\or200\.gradle\caches\transforms-2\files-2.1\17c64d86437627272a74dcb667f7033e\firebase-auth-19.1.0\AndroidManifest.xml:34:13-84
+49            android:directBootAware="true"
+49-->[com.google.firebase:firebase-common:19.3.0] C:\Users\or200\.gradle\caches\transforms-2\files-2.1\90765ffc38df5191d5a302527ef91962\jetified-firebase-common-19.3.0\AndroidManifest.xml:34:13-43
+50            android:exported="false" >
+50-->[com.google.firebase:firebase-auth:19.1.0] C:\Users\or200\.gradle\caches\transforms-2\files-2.1\17c64d86437627272a74dcb667f7033e\firebase-auth-19.1.0\AndroidManifest.xml:35:13-37
+51            <meta-data
+51-->[com.google.firebase:firebase-auth:19.1.0] C:\Users\or200\.gradle\caches\transforms-2\files-2.1\17c64d86437627272a74dcb667f7033e\firebase-auth-19.1.0\AndroidManifest.xml:36:13-38:85
+52                android:name="com.google.firebase.components:com.google.firebase.auth.FirebaseAuthRegistrar"
+52-->[com.google.firebase:firebase-auth:19.1.0] C:\Users\or200\.gradle\caches\transforms-2\files-2.1\17c64d86437627272a74dcb667f7033e\firebase-auth-19.1.0\AndroidManifest.xml:37:17-109
+53                android:value="com.google.firebase.components.ComponentRegistrar" />
+53-->[com.google.firebase:firebase-auth:19.1.0] C:\Users\or200\.gradle\caches\transforms-2\files-2.1\17c64d86437627272a74dcb667f7033e\firebase-auth-19.1.0\AndroidManifest.xml:38:17-82
+54            <meta-data
+54-->[com.google.firebase:firebase-firestore:21.3.0] C:\Users\or200\.gradle\caches\transforms-2\files-2.1\e719d4995983ff203b117969b15539d3\jetified-firebase-firestore-21.3.0\AndroidManifest.xml:20:13-22:85
+55                android:name="com.google.firebase.components:com.google.firebase.firestore.FirestoreRegistrar"
+55-->[com.google.firebase:firebase-firestore:21.3.0] C:\Users\or200\.gradle\caches\transforms-2\files-2.1\e719d4995983ff203b117969b15539d3\jetified-firebase-firestore-21.3.0\AndroidManifest.xml:21:17-111
+56                android:value="com.google.firebase.components.ComponentRegistrar" />
+56-->[com.google.firebase:firebase-firestore:21.3.0] C:\Users\or200\.gradle\caches\transforms-2\files-2.1\e719d4995983ff203b117969b15539d3\jetified-firebase-firestore-21.3.0\AndroidManifest.xml:22:17-82
+57        </service>
+58
+59        <activity
+59-->[com.google.android.gms:play-services-base:17.1.0] C:\Users\or200\.gradle\caches\transforms-2\files-2.1\4d738c6b1e41233a8308b34927302ac0\play-services-base-17.1.0\AndroidManifest.xml:23:9-26:75
+60            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+60-->[com.google.android.gms:play-services-base:17.1.0] C:\Users\or200\.gradle\caches\transforms-2\files-2.1\4d738c6b1e41233a8308b34927302ac0\play-services-base-17.1.0\AndroidManifest.xml:24:13-79
+61            android:exported="false"
+61-->[com.google.android.gms:play-services-base:17.1.0] C:\Users\or200\.gradle\caches\transforms-2\files-2.1\4d738c6b1e41233a8308b34927302ac0\play-services-base-17.1.0\AndroidManifest.xml:25:13-37
+62            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+62-->[com.google.android.gms:play-services-base:17.1.0] C:\Users\or200\.gradle\caches\transforms-2\files-2.1\4d738c6b1e41233a8308b34927302ac0\play-services-base-17.1.0\AndroidManifest.xml:26:13-72
+63
+64        <provider
+64-->[com.google.firebase:firebase-common:19.3.0] C:\Users\or200\.gradle\caches\transforms-2\files-2.1\90765ffc38df5191d5a302527ef91962\jetified-firebase-common-19.3.0\AndroidManifest.xml:26:9-30:39
+65            android:name="com.google.firebase.provider.FirebaseInitProvider"
+65-->[com.google.firebase:firebase-common:19.3.0] C:\Users\or200\.gradle\caches\transforms-2\files-2.1\90765ffc38df5191d5a302527ef91962\jetified-firebase-common-19.3.0\AndroidManifest.xml:27:13-77
+66            android:authorities="kz.iitu.chatapp.firebaseinitprovider"
+66-->[com.google.firebase:firebase-common:19.3.0] C:\Users\or200\.gradle\caches\transforms-2\files-2.1\90765ffc38df5191d5a302527ef91962\jetified-firebase-common-19.3.0\AndroidManifest.xml:28:13-72
+67            android:exported="false"
+67-->[com.google.firebase:firebase-common:19.3.0] C:\Users\or200\.gradle\caches\transforms-2\files-2.1\90765ffc38df5191d5a302527ef91962\jetified-firebase-common-19.3.0\AndroidManifest.xml:29:13-37
+68            android:initOrder="100" />
+68-->[com.google.firebase:firebase-common:19.3.0] C:\Users\or200\.gradle\caches\transforms-2\files-2.1\90765ffc38df5191d5a302527ef91962\jetified-firebase-common-19.3.0\AndroidManifest.xml:30:13-36
+69
+70        <meta-data
+70-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\or200\.gradle\caches\transforms-2\files-2.1\e4e09cc05638b8d8cbd65e01231d7bef\jetified-play-services-basement-17.0.0\AndroidManifest.xml:23:9-25:69
+71            android:name="com.google.android.gms.version"
+71-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\or200\.gradle\caches\transforms-2\files-2.1\e4e09cc05638b8d8cbd65e01231d7bef\jetified-play-services-basement-17.0.0\AndroidManifest.xml:24:13-58
+72            android:value="@integer/google_play_services_version" />
+72-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\or200\.gradle\caches\transforms-2\files-2.1\e4e09cc05638b8d8cbd65e01231d7bef\jetified-play-services-basement-17.0.0\AndroidManifest.xml:25:13-66
+73    </application>
+74
+75</manifest>

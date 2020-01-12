@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "1022547866276",
+    "firebase_url": "https://chatapp-2d3ed.firebaseio.com",
+    "project_id": "chatapp-2d3ed",
+    "storage_bucket": "chatapp-2d3ed.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1022547866276:android:4f4c27df05668b995fac31",
+        "android_client_info": {
+          "package_name": "kz.iitu.chatapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1022547866276-7gjvoa1ohjuq9aesiin1qug61rovc47i.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAXmX55Po1T4zn8nFKQ-MgSPZzg9CPXyVE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1022547866276-7gjvoa1ohjuq9aesiin1qug61rovc47i.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "1022547866276-ecpeg0nsmvein6fnif4ab0j5crelklja.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "kz.iitu.chatapp"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

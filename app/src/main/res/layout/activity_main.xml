@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="@dimen/padding"
+    tools:context=".MainActivity"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:layout_weight="1"
+        >
+
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            >
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/email_login_edit_text"
+                android:layout_width="match_parent"
+                android:paddingLeft="@dimen/padding_left_edit_text"
+                android:layout_height="@dimen/layout_height"
+                android:hint="@string/email_edit_text_hint"
+                android:textColorHint="@color/black"
+                android:background="@drawable/edit_text_bg"
+                tools:ignore="HardcodedText" />
+        </com.google.android.material.textfield.TextInputLayout>
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            >
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/password_login_edit_text"
+                android:layout_width="match_parent"
+                android:paddingLeft="@dimen/padding_left_edit_text"
+                android:layout_marginTop="@dimen/margin_top_input"
+                android:layout_height="@dimen/input_height"
+                android:hint="@string/password_edit_text_hint"
+                android:textColorHint="@color/black"
+                android:background="@drawable/edit_text_bg"
+                tools:ignore="HardcodedText" />
+        </com.google.android.material.textfield.TextInputLayout>
+
+
+        <Button
+            android:id="@+id/log_in_button_login_page"
+            android:layout_width="@dimen/layout_width"
+            android:layout_marginTop="@dimen/margin_top_input"
+            android:layout_height="@dimen/button_height"
+            android:text="@string/log_in_button"
+            android:textAllCaps="false"
+            android:textColor="@color/white"
+            android:textSize="@dimen/text_size_button"
+            android:layout_gravity="right"
+            android:background="@drawable/button_bg"
+            tools:ignore="RtlHardcoded" />
+
+    </LinearLayout>
+
+
+    <TextView
+        android:id="@+id/to_sign_up_page"
+        android:layout_marginTop="@dimen/margin_top_input"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/text_size_button"
+        android:text="@string/don_t_have_an_account_sign_up_hint"
+        android:textColor="@color/green"
+        />
+
+</LinearLayout>
